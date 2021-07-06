@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/gdx">
+    <Router basename="/gdxwebapp">
       <App />
     </Router>
   </React.StrictMode>,
