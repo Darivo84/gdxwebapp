@@ -43,7 +43,7 @@ const SubTitle = styled.p`
 const Home = () => {
   return (
     <Container>
-      <Title>Welcome to MICard</Title>
+      <Title>Welcome to Global Data Exchange | GDX</Title>
       <InfoBox>
         <SubTitle> Please login to access our site</SubTitle>
         <LoginButton />
