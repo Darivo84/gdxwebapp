@@ -7,7 +7,7 @@ import Welcome from './pages/Welcome';
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/gdxwebapp">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/welcome" component={Welcome} />
