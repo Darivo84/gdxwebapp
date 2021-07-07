@@ -32,14 +32,14 @@ const LoginButton = () => {
       console.log('User: ', response.data);
       setIsAuthenticated(true);
       setAuthUser(response.data);
-      history.push('https://darivo84.github.io/gdxwebapp/welcome');
+      history.push('https://darivo84.github.io/gdxwebapp/#/welcome');
     }
   }
 
   // Login/Register with Google
   const redirectToGoogleSSO = async () => {
     let Timeout = null;
-    const googleLoginUrl = 'http://localhost:5000/api/v1/login/google';
+    const googleLoginUrl = 'http://18.135.104.137:5000/api/v1/login/google';
     const newWindow = window.open(googleLoginUrl, '_blank', "width=500,height=600")
 
     if (newWindow) {
