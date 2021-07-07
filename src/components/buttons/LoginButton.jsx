@@ -21,7 +21,7 @@ const LoginButton = () => {
 
   // Fetch
   const fetchAuthUser = async () => {
-    const response = await Axios.get('http://localhost:5000/api/v1/auth/user', { withCredentials: true }).catch((err) => {
+    const response = await Axios.get('http://18.135.104.137:5000/api/v1/auth/user', { withCredentials: true }).catch((err) => {
       console.log('Not properly authenticated');
       setIsAuthenticated(false);
       setAuthUser(null);
