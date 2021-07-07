@@ -9,7 +9,7 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/gdxwebapp/welcome" component={Welcome} />
+      <Route path="/welcome" component={Welcome} />
     </Switch>
   );
 }
