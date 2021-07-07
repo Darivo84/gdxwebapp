@@ -32,7 +32,7 @@ const LoginButton = () => {
       console.log('User: ', response.data);
       setIsAuthenticated(true);
       setAuthUser(response.data);
-      history.push('/welcome');
+      history.push('https://darivo84.github.io/gdxwebapp/welcome');
     }
   }
 
