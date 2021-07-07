@@ -7,7 +7,7 @@ import Welcome from './pages/Welcome';
 
 function App() {
   return (
-    <HashRouter basename="gdxwebapp">
+    <HashRouter basename="/">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path={process.env.PUBLIC_URL + '/welcome'} component={Welcome} />
